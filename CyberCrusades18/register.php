@@ -249,16 +249,12 @@
 }
 ?>
     <?php
-					 	$server="166.62.8.2";
-						$username="alma18int";
-						$password="teamAlma@18";
-						$db="alma18int";
+					 	$server="********";
+						$username="********";
+						$password="*******";
+						$db="******";
 						//if($flag==1)
-						//{
-						/*$server="localhost";
-						$username="root";
-						$password="";
-						$db="testing";*/
+						
 						$conn= mysqli_connect($server,$username,$password,$db);
 						
 						$sql="INSERT into cb (name,email,phone,college,game)VALUES ('".$name."','".$email."','".$phone."','".$college."','".$game."')";
